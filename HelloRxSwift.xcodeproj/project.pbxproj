@@ -60,7 +60,8 @@
 		C40AA0562626B24100D7E517 /* HelloRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AA05A2626B24100D7E517 /* HelloRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxSwiftUITests.swift; sourceTree = "<group>"; };
 		C40AA05C2626B24100D7E517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C47A59E22626D9640075A495 /* RxSwiftPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftPlayground.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C47A59E22626D9640075A495 /* FilterOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = FilterOperators.playground; path = HelloRxSwift/Playground/FilterOperators.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C4FCD43326274A2E00A96FF3 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DB7F987169F96B2762BEEE2D /* Pods_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,10 +141,10 @@
 		C40AA0372626B23F00D7E517 /* HelloRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C4FCD42F262749C500A96FF3 /* Playground */,
 				C40AA0382626B23F00D7E517 /* AppDelegate.swift */,
 				C40AA03A2626B23F00D7E517 /* SceneDelegate.swift */,
 				C40AA03C2626B23F00D7E517 /* ViewController.swift */,
-				C47A59E22626D9640075A495 /* RxSwiftPlayground.playground */,
 				C40AA03E2626B23F00D7E517 /* Main.storyboard */,
 				C40AA0412626B24100D7E517 /* Assets.xcassets */,
 				C40AA0432626B24100D7E517 /* LaunchScreen.storyboard */,
@@ -168,6 +169,15 @@
 				C40AA05C2626B24100D7E517 /* Info.plist */,
 			);
 			path = HelloRxSwiftUITests;
+			sourceTree = "<group>";
+		};
+		C4FCD42F262749C500A96FF3 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				C4FCD43326274A2E00A96FF3 /* Subjects.playground */,
+				C47A59E22626D9640075A495 /* FilterOperators.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
