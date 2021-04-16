@@ -14,11 +14,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     
     _ = Observable.from([1, 2, 3, 4, 5])
-    
-    
-    
+
   }
-
-
 }
 

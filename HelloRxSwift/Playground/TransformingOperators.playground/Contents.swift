@@ -63,7 +63,7 @@ john1.score.accept(43)
 
 
 //: Flat Map Latest
-
+  
 header("FlatMapLatest")
 
 let john2 = Student(score: BehaviorRelay(value: 75))

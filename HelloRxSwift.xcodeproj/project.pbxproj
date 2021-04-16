@@ -60,6 +60,7 @@
 		C40AA0562626B24100D7E517 /* HelloRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40AA05A2626B24100D7E517 /* HelloRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxSwiftUITests.swift; sourceTree = "<group>"; };
 		C40AA05C2626B24100D7E517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41D11B226296232007D8C0E /* CombiningOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombiningOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C4DAA04D26285CE30092CEB4 /* TransformingOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C4FCD43326274A2E00A96FF3 /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C4FCD44E2628167F00A96FF3 /* FilterOperations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilterOperations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -175,6 +176,7 @@
 		C4FCD42F262749C500A96FF3 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				C41D11B226296232007D8C0E /* CombiningOperators.playground */,
 				C4DAA04D26285CE30092CEB4 /* TransformingOperators.playground */,
 				C4FCD44E2628167F00A96FF3 /* FilterOperations.playground */,
 				C4FCD43326274A2E00A96FF3 /* Subjects.playground */,
